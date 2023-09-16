@@ -20,7 +20,7 @@ def game():
   y = 0
   a = random.choice(words)
   time.sleep(2)
-  print(f'''\033[34mAs a hint, the first and last letters of the name are "{a[0]}" and "{a[len(a)-1]}". Also, the name has {len(a)} letters''')
+  print(f'''\033[34mAs a hint, the first and last letters of the name are "{a[0]}" and "{a[len(a)-1]}". Also, the name has {len(a)} letters.''')
   time.sleep(1)
   c = []
   h = 0
